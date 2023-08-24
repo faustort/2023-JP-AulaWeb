@@ -32,7 +32,7 @@ h2 {
 .borda {
   border: 1px solid red;
   box-sizing: border-box; /* tamanho seja medido por interno*/
-}
+} 
 
 .container-custom {
   max-width: 1400px; /* Largura máxima */
