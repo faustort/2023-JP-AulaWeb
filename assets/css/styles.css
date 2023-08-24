@@ -32,12 +32,11 @@ h2 {
 .borda {
   border: 1px solid red;
   box-sizing: border-box; /* tamanho seja medido por interno*/
-} 
+}
 
 .container-custom {
   max-width: 1400px; /* Largura máxima */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .linha {
@@ -47,4 +46,20 @@ h2 {
 
 .col {
   flex-basis: 50%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fundo-madeira {
+  background-image: url("../images/fundo.png");
+  background-image: url("//picsum.photos/400/400");
 }
